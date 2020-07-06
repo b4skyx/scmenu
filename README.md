@@ -15,8 +15,12 @@ To get a copy of the utility on your local machine:
 git clone https://github.com/b4skyx/scmenu.git
 cd scmenu
 ```
-
-Then you may add ``scmenu`` to your path and have a keybinding for a quick launch.
+Make sure the scmenu is executable. If not, you could do this so by
+```
+chmod +x scmenu
+```
+and run with ``./scmenu``
+You could also add it to your system path in order to call it from anywhere and/or assign a specific keybinding to it for quick access.
 
 ## Todo:
 - [ ] Add custom screenshot paths based on user config (without editing script)
