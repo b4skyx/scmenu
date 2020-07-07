@@ -49,9 +49,9 @@ function runner() {
 	if [ "$choice" = "Timer" ]
 	then
 		seconds=`$dmenu_cmd "After number of seconds"`
-		choice=$(echo -r "Fullscreen\nCurrent Window" | $dmenu_cmd -p "Type")
+		choice=$(echo -e "Fullscreen\nCurrent Window" | $dmenu_cmd -p "Type")
 		sleep "$seconds"
-		exit 0
+		runner
 	fi
 	if [ "$choice" = "Deletion Link" ]
 	then
