@@ -1,4 +1,5 @@
 #!/bin/bash
+# https://github.com/b4skyx/scmenu
 # Check whether the dependencies have been installed or not
 type curl &>/dev/null || {
 	echo "Couldn't find curl, dependency not satisfied." >&2
@@ -60,6 +61,7 @@ function runner() {
 		notify-send "Deletion Link copied"
 	elif [ "$choice" = "Fullscreen" ]
 	then
+		sleep 1
 		maim /tmp/screenshot.png
 		save_clip
 	elif [ "$choice" = "Selection" ]
