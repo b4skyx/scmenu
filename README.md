@@ -2,6 +2,10 @@
 ---
 A simple rofi/dmenu menu for taking quick screenshots.
 
+## Screenshots
+
+
+
 ## Dependencies
 - maim
 - curl
@@ -22,6 +26,3 @@ chmod +x scmenu
 and run with ``./scmenu``
 You could also add it to your system path in order to call it from anywhere and/or assign a specific keybinding to it for quick access.
 
-## Todo:
-- [ ] Add custom screenshot paths based on user config (without editing script)
-- [ ] Add support for creating/uploading gifs
